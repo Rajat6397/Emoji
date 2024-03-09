@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+body{
+    /* text-align: center; */
+}
+h1{
+    font-weight: lighter;
+    padding:10px 0px 14px 0px;
+}
+input{
+    background-color: #fff;
+    padding-right: 10px;
+    font-size: 120%;
+    color:black;
+}
+button{
+    
+    background-color: #fff;
+    color:black;
+    font-size: 120%;
+}
+button:hover{
+    background-color: black;
+    color:#fff;
+    border:2px solid grey;
+
+}
+.emoji{
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+}
+
+/* .container{
+    height:50%;
+    width:50%;
+    background-color: blue;
+    border-color: red;
+} */
+ .aliases{
+    text-transform: capitalize;
+    font-size: 125%;
+}
+
+.desc{
+    font-size: 125%;
+}
+
+.desc::first-letter{
+    text-transform: uppercase;
+} 
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td{
+    border-top: 1ps solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
